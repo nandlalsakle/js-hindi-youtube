@@ -46,3 +46,26 @@ console.log(typeof outsideTemp);
 console.log(typeof anotherId);
 console.log(typeof isLoggedIn);
 console.log(typeof userEmail);
+
+
+// **************************************************
+// Stack(Primitive), Heap(Non-Primitive)
+let myYoutubename = "nandlalsakle";
+let anothername = myYoutubename;
+anothername="Babbusakle"
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email="nandlalsakle@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
